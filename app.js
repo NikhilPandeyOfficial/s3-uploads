@@ -14,8 +14,8 @@ app.set('view engine', 'ejs');
 aws.config.update({});
 
 const s3 = new aws.S3({
-	accessKeyId: 'AKIAWTC5DL7G7MBAXTLW',
-	secretAccessKey: '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',
+	accessKeyId: 'AKXXXXXXXXXXXX',
+	secretAccessKey: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 	bucket: 'nikhilpandey'
 });
 
